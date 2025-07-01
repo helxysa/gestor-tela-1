@@ -374,8 +374,7 @@
                                 </td>
                             </tr>
 
-                            <tr class="hover:bg-gray-50 cursor-pointer"
-                                onclick="showConsultationDetails('CP-2023-016')">
+                            <tr class="hover:bg-gray-50 cursor-pointer" onclick="showConsultationDetails('CP-2023-016')">
                                 <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                                     3
                                 </td>
@@ -402,19 +401,16 @@
                                     <span class="text-sm font-medium text-gray-600">0 pendentes</span>
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium space-x-2">
-                                    <button class="text-primary-600 hover:text-primary-900"
-                                        onclick="event.stopPropagation(); showEditModal('CP-2023-016')">
+                                    <button class="text-primary-600 hover:text-primary-900" onclick="event.stopPropagation(); showEditModal('CP-2023-016')">
                                         <i class="fas fa-edit"></i>
                                     </button>
-                                    <button class="text-primary-600 hover:text-primary-900"
-                                        onclick="event.stopPropagation(); showConsultationDetails('CP-2023-016')">
+                                    <button class="text-primary-600 hover:text-primary-900" onclick="event.stopPropagation(); showConsultationDetails('CP-2023-016')">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                 </td>
                             </tr>
 
-                            <tr class="hover:bg-gray-50 cursor-pointer"
-                                onclick="showConsultationDetails('CP-2023-017')">
+                            <tr class="hover:bg-gray-50 cursor-pointer" onclick="showConsultationDetails('CP-2023-017')">
                                 <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                                     4
                                 </td>
@@ -442,16 +438,13 @@
                                     <span class="text-sm font-medium text-orange-600">12 pendentes</span>
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium space-x-2">
-                                    <button class="text-primary-600 hover:text-primary-900"
-                                        onclick="event.stopPropagation(); showPublishModal('CP-2023-017')">
+                                    <button class="text-primary-600 hover:text-primary-900" onclick="event.stopPropagation(); showPublishModal('CP-2023-017')">
                                         <i class="fas fa-upload"></i>
                                     </button>
-                                    <button class="text-primary-600 hover:text-primary-900"
-                                        onclick="event.stopPropagation(); showEditModal('CP-2023-017')">
+                                    <button class="text-primary-600 hover:text-primary-900" onclick="event.stopPropagation(); showEditModal('CP-2023-017')">
                                         <i class="fas fa-edit"></i>
                                     </button>
-                                    <button class="text-primary-600 hover:text-primary-900"
-                                        onclick="event.stopPropagation(); showConsultationDetails('CP-2023-017')">
+                                    <button class="text-primary-600 hover:text-primary-900" onclick="event.stopPropagation(); showConsultationDetails('CP-2023-017')">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                 </td>
@@ -489,18 +482,15 @@
 
         <div id="consultation-details" class="hidden space-y-8">
             <div class="flex items-center justify-between mb-6">
-                <button id="btn-back"
-                    class="flex items-center px-4 py-2 text-primary-600 hover:text-primary-700 hover:bg-primary-50 font-medium rounded-md transition-all duration-200"
-                    onclick="voltarParaLista()">
+                <button id="btn-back" class="flex items-center px-4 py-2 text-primary-600 hover:text-primary-700 hover:bg-primary-50 font-medium rounded-md transition-all duration-200" onclick="voltarParaLista()">
                     <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
-                        </path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
                     </svg>
                     Voltar para lista
                 </button>
-
+                
             </div>
-
+            
             <!-- Cards de Totalização de Comentários -->
             <div class="space-y-6">
                 <div class="flex items-center justify-between">
@@ -508,20 +498,18 @@
                         <h2 class="text-xl font-bold text-gray-900">Visão Geral dos Comentários</h2>
                         <p class="text-gray-600 mt-1">Acompanhe o status e moderação dos comentários</p>
                     </div>
-
+                   
                 </div>
-
+                
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-                    <div
-                        class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 border-l-4 border-l-yellow-500">
+                    <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 border-l-4 border-l-yellow-500">
                         <div class="flex items-center justify-between">
                             <div>
                                 <p class="text-sm font-medium text-gray-600">Comentários Pendentes</p>
                                 <p class="text-3xl font-bold text-gray-900 mt-2" data-counter="pendentes">2</p>
                             </div>
                             <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
-                                <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24">
+                                <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
                                     </path>
@@ -537,8 +525,7 @@
                                 <p class="text-3xl font-bold text-gray-900 mt-2" data-counter="aprovados">1</p>
                             </div>
                             <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
-                                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24">
+                                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z">
                                     </path>
@@ -570,8 +557,7 @@
                                 <p class="text-3xl font-bold text-gray-900 mt-2" data-counter="total-comentarios">4</p>
                             </div>
                             <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24">
+                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-3.582 8-8 8a8.001 8.001 0 01-7.219-4.57c-.4-.8-.6-1.712-.6-2.675V9a8 8 0 018-8c4.418 0 8 3.582 8 8v3z">
                                     </path>
@@ -585,686 +571,397 @@
             <!-- Detalhes da Consulta -->
             <div class="space-y-6">
                 <div class="flex items-center justify-between">
-
+                   
                 </div>
-
+                
                 <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
                     <div class="flex justify-between items-start mb-6">
-                        <div class="flex-1">
-                            <h1 id="consultation-title" class="text-2xl font-bold text-gray-900 mb-4">Proposta de
-                                Reforma do
-                                Sistema de Transporte Público Municipal</h1>
-                            <span id="consultation-status"
-                                class="px-3 py-1 text-sm font-medium bg-green-100 text-green-700 rounded-full">Ativa</span>
-                        </div>
+                    <div class="flex-1">
+                        <h1 id="consultation-title" class="text-2xl font-bold text-gray-900 mb-4">Proposta de Reforma do
+                            Sistema de Transporte Público Municipal</h1>
+                        <span id="consultation-status"
+                            class="px-3 py-1 text-sm font-medium bg-green-100 text-green-700 rounded-full">Ativa</span>
                     </div>
-                    <div class="grid md:grid-cols-2 gap-6 mb-6">
-                        <div>
-                            <h3 class="text-sm font-medium text-gray-500 mb-2">Data de Início</h3>
-                            <p id="consultation-start-date" class="text-gray-900">01/11/2024</p>
-                        </div>
-                        <div>
-                            <h3 class="text-sm font-medium text-gray-500 mb-2">Data de Encerramento</h3>
-                            <p id="consultation-end-date" class="text-gray-900">15/12/2024</p>
-                        </div>
-                    </div>
-                    <div class="mb-6">
-                        <h3 class="text-sm font-medium text-gray-500 mb-2">Descrição</h3>
-                        <p id="consultation-description" class="text-gray-700 leading-relaxed">
-                            Esta consulta pública visa coletar contribuições da população sobre a proposta de reforma do
-                            sistema de transporte público municipal. O objetivo é modernizar a frota, otimizar rotas e
-                            melhorar a qualidade do serviço prestado aos cidadãos.
-                        </p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <h3 class="text-sm font-medium text-gray-500 mb-2">Data de Início</h3>
+                        <p id="consultation-start-date" class="text-gray-900">01/11/2024</p>
                     </div>
                     <div>
-                        <h3 class="text-sm font-medium text-gray-500 mb-3">Perguntas da Consulta</h3>
-                        <div id="consultation-questions" class="space-y-3">
-                            <div class="p-4 bg-gray-50 rounded-lg">
-                                <p class="font-medium text-gray-900">1. Qual sua opinião sobre a proposta de integração
-                                    entre ônibus e metrô?</p>
-                            </div>
-                            <div class="p-4 bg-gray-50 rounded-lg">
-                                <p class="font-medium text-gray-900">2. Quais melhorias você considera prioritárias no
-                                    transporte público?</p>
-                            </div>
-                            <div class="p-4 bg-gray-50 rounded-lg">
-                                <p class="font-medium text-gray-900">3. Como você avalia a proposta de tarifa única para
-                                    todos os modais?</p>
-                            </div>
-                        </div>
+                        <h3 class="text-sm font-medium text-gray-500 mb-2">Data de Encerramento</h3>
+                        <p id="consultation-end-date" class="text-gray-900">15/12/2024</p>
                     </div>
                 </div>
-
-                <!-- Tabela de Comentários -->
-                <div class="space-y-6">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <h2 class="text-xl font-bold text-gray-900">Comentários Recebidos</h2>
-                            <p class="text-gray-600 mt-1">Modere e gerencie os comentários dos cidadãos</p>
+                <div class="mb-6">
+                    <h3 class="text-sm font-medium text-gray-500 mb-2">Descrição</h3>
+                    <p id="consultation-description" class="text-gray-700 leading-relaxed">
+                        Esta consulta pública visa coletar contribuições da população sobre a proposta de reforma do
+                        sistema de transporte público municipal. O objetivo é modernizar a frota, otimizar rotas e
+                        melhorar a qualidade do serviço prestado aos cidadãos.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-sm font-medium text-gray-500 mb-3">Perguntas da Consulta</h3>
+                    <div id="consultation-questions" class="space-y-3">
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                            <p class="font-medium text-gray-900">1. Qual sua opinião sobre a proposta de integração
+                                entre ônibus e metrô?</p>
                         </div>
-                    </div>
-
-                    <!-- Barra de Busca de Comentários -->
-                    <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 mb-3">
-                        <div class="flex gap-3">
-                            <!-- Campo de Busca -->
-                            <div class="relative flex-1">
-                                <input type="text" id="comments-search-input"
-                                    class="w-full pl-12 pr-12 h-12 border-2 border-gray-200 rounded-lg text-gray-700 focus:border-primary-500 focus:ring focus:ring-primary-100 transition-all duration-200"
-                                    placeholder="Buscar por usuário, conteúdo do comentário ou pergunta...">
-                                <div class="absolute left-4 top-1/2 transform -translate-y-1/2">
-                                    <i class="fas fa-search text-gray-400 text-lg"></i>
-                                </div>
-                            </div>
-
-                            <!-- Select de Status -->
-                            <div class="relative" style="min-width: 200px">
-                                <select id="comments-status-filter"
-                                    class="w-full h-12 pl-4 pr-10 border-2 border-gray-200 rounded-lg appearance-none bg-white text-gray-700 text-sm focus:border-primary-500 focus:ring focus:ring-primary-100 transition-all duration-200">
-                                    <option value="todos">Todos os status</option>
-                                    <option value="pendente">Pendente</option>
-                                    <option value="aprovado">Aprovado</option>
-                                    <option value="rejeitado">Rejeitado</option>
-                                </select>
-                                <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
-                                    <i class="fas fa-chevron-down text-gray-400"></i>
-                                </div>
-                            </div>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                            <p class="font-medium text-gray-900">2. Quais melhorias você considera prioritárias no
+                                transporte público?</p>
                         </div>
-
-                        <!-- Tags de Filtros Ativos -->
-                        <div id="comments-active-filters" class="flex flex-wrap gap-2 mt-3">
-                            <!-- As tags serão inseridas aqui via JavaScript -->
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-x-auto">
-                        <div class="overflow-hidden">
-                            <table class="min-w-full divide-y divide-gray-200">
-                                <thead class="bg-gray-50">
-                                    <tr>
-                                        <th scope="col"
-                                            class="px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">
-                                            #
-                                        </th>
-                                        <th scope="col"
-                                            class="px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                            Usuário
-                                        </th>
-                                        <th scope="col"
-                                            class="hidden md:table-cell px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                            Pergunta
-                                        </th>
-                                        <th scope="col"
-                                            class="hidden md:table-cell px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">
-                                            Data/Hora
-                                        </th>
-                                        <th scope="col"
-                                            class="px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">
-                                            Status
-                                        </th>
-                                        <th scope="col"
-                                            class="px-3 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">
-                                            Ações
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody id="comments-table-body" class="bg-white divide-y divide-gray-200">
-                                    <tr class="hover:bg-gray-50">
-                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                                            #001
-                                        </td>
-                                        <td class="px-6 py-4">
-                                            <div class="flex flex-col">
-                                                <div class="text-sm font-medium text-gray-900 break-words">Maria Silva
-                                                    Santos</div>
-                                                <div class="text-sm text-gray-500">maria.silva@email.com</div>
-                                            </div>
-                                        </td>
-                                        <td class="hidden md:table-cell px-6 py-4 text-sm text-gray-900">
-                                            <div class="max-w-xs truncate">
-                                                Qual sua opinião sobre a proposta de integração entre ônibus e metrô?
-                                            </div>
-                                        </td>
-                                        <td
-                                            class="hidden md:table-cell px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                            12/12/2024<br>
-                                            <span class="text-xs">14:30</span>
-                                        </td>
-                                        <td class="px-6 py-4 whitespace-nowrap">
-                                            <span
-                                                class="px-2 py-1 text-xs font-medium bg-yellow-100 text-yellow-800 rounded-full">
-                                                Pendente
-                                            </span>
-                                        </td>
-                                        <td
-                                            class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium space-x-2">
-                                            <button onclick="viewComment(1)"
-                                                class="text-primary-600 hover:text-primary-900">
-                                                <i class="fas fa-eye"></i>
-                                            </button>
-                                            <button onclick="approveComment(1)"
-                                                class="text-primary-600 hover:text-primary-900">
-                                                <i class="fas fa-check"></i>
-                                            </button>
-                                            <button onclick="rejectComment(1)"
-                                                class="text-primary-600 hover:text-primary-900">
-                                                <i class="fas fa-times"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr class="hover:bg-gray-50">
-                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                                            #002
-                                        </td>
-                                        <td class="px-6 py-4">
-                                            <div class="flex flex-col">
-                                                <div class="text-sm font-medium text-gray-900 break-words">João Carlos
-                                                    Oliveira</div>
-                                                <div class="text-sm text-gray-500">joao.oliveira@email.com</div>
-                                            </div>
-                                        </td>
-                                        <td class="hidden md:table-cell px-6 py-4 text-sm text-gray-900">
-                                            <div class="max-w-xs truncate">
-                                                Como você avalia a proposta de horários estendidos?
-                                            </div>
-                                        </td>
-                                        <td
-                                            class="hidden md:table-cell px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                            12/12/2024<br>
-                                            <span class="text-xs">13:45</span>
-                                        </td>
-                                        <td class="px-6 py-4 whitespace-nowrap">
-                                            <span
-                                                class="px-2 py-1 text-xs font-medium bg-green-100 text-green-700 rounded-full">
-                                                Aprovado
-                                            </span>
-                                        </td>
-                                        <td
-                                            class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium space-x-2">
-                                            <button onclick="viewComment(2)"
-                                                class="text-primary-600 hover:text-primary-900">
-                                                <i class="fas fa-eye"></i>
-                                            </button>
-                                            <button onclick="approveComment(2)"
-                                                class="text-primary-600 hover:text-primary-900 opacity-50 cursor-not-allowed">
-                                                <i class="fas fa-check"></i>
-                                            </button>
-                                            <button onclick="rejectComment(2)"
-                                                class="text-primary-600 hover:text-primary-900">
-                                                <i class="fas fa-times"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr class="hover:bg-gray-50">
-                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                                            #003
-                                        </td>
-                                        <td class="px-6 py-4">
-                                            <div class="flex flex-col">
-                                                <div class="text-sm font-medium text-gray-900 break-words">Ana Paula
-                                                    Costa</div>
-                                                <div class="text-sm text-gray-500">ana.costa@email.com</div>
-                                            </div>
-                                        </td>
-                                        <td class="hidden md:table-cell px-6 py-4 text-sm text-gray-900">
-                                            <div class="max-w-xs truncate">
-                                                Qual sua opinião sobre a proposta de integração entre ônibus e metrô?
-                                            </div>
-                                        </td>
-                                        <td
-                                            class="hidden md:table-cell px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                            11/12/2024<br>
-                                            <span class="text-xs">16:20</span>
-                                        </td>
-                                        <td class="px-6 py-4 whitespace-nowrap">
-                                            <span
-                                                class="px-2 py-1 text-xs font-medium bg-red-100 text-red-700 rounded-full">
-                                                Rejeitado
-                                            </span>
-                                        </td>
-                                        <td
-                                            class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium space-x-2">
-                                            <button onclick="viewComment(3)"
-                                                class="text-primary-600 hover:text-primary-900">
-                                                <i class="fas fa-eye"></i>
-                                            </button>
-                                            <button onclick="approveComment(3)"
-                                                class="text-primary-600 hover:text-primary-900">
-                                                <i class="fas fa-check"></i>
-                                            </button>
-                                            <button onclick="rejectComment(3)"
-                                                class="text-primary-600 hover:text-primary-900 opacity-50 cursor-not-allowed">
-                                                <i class="fas fa-times"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr class="hover:bg-gray-50">
-                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                                            #004
-                                        </td>
-                                        <td class="px-6 py-4">
-                                            <div class="flex flex-col">
-                                                <div class="text-sm font-medium text-gray-900 break-words">Maria Silva
-                                                    Santos</div>
-                                                <div class="text-sm text-gray-500">maria.silva@email.com</div>
-                                            </div>
-                                        </td>
-                                        <td class="hidden md:table-cell px-6 py-4 text-sm text-gray-900">
-                                            <div class="max-w-xs truncate">
-                                                Como você avalia a proposta de horários estendidos?
-                                            </div>
-                                        </td>
-                                        <td
-                                            class="hidden md:table-cell px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                            12/12/2024<br>
-                                            <span class="text-xs">14:32</span>
-                                        </td>
-                                        <td class="px-6 py-4 whitespace-nowrap">
-                                            <span
-                                                class="px-2 py-1 text-xs font-medium bg-yellow-100 text-yellow-800 rounded-full">
-                                                Pendente
-                                            </span>
-                                        </td>
-                                        <td
-                                            class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium space-x-2">
-                                            <button onclick="viewComment(4)"
-                                                class="text-primary-600 hover:text-primary-900">
-                                                <i class="fas fa-eye"></i>
-                                            </button>
-                                            <button onclick="approveComment(4)"
-                                                class="text-primary-600 hover:text-primary-900">
-                                                <i class="fas fa-check"></i>
-                                            </button>
-                                            <button onclick="rejectComment(4)"
-                                                class="text-primary-600 hover:text-primary-900">
-                                                <i class="fas fa-times"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <div class="p-4 bg-gray-50 rounded-lg">
+                            <p class="font-medium text-gray-900">3. Como você avalia a proposta de tarifa única para
+                                todos os modais?</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id="confirmation-modal"
-                class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">...</div>
-
-            <!-- INÍCIO DO MODAL DE REJEIÇÃO MELHORADO -->
-            <div id="rejection-modal"
-                class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50 flex items-center justify-center">
-                <div class="bg-white rounded-lg shadow-xl w-full max-w-2xl mx-auto my-8">
-
-                    <!-- ETAPA 1: Inserir Motivo -->
-                    <div id="rejection-step-1">
-                        <div class="p-6 border-b border-gray-200">
-                            <h3 class="text-xl font-semibold text-gray-800">Justificar o Motivo da Rejeição</h3>
-                            <p class="text-sm text-gray-600 mt-1">Descreva o motivo pelo qual o comentário não pode ser
-                                aprovado. Esta informação será enviada ao cidadão.</p>
-                        </div>
-                        <div class="p-6">
-                            <label for="rejection-reason-input"
-                                class="block text-sm font-medium text-gray-700 mb-2">Motivo
-                                da Rejeição:</label>
-                            <textarea id="rejection-reason-input" rows="5"
-                                class="w-full border border-gray-300 rounded-md p-3 text-sm focus:ring-primary-500 focus:border-primary-500"
-                                placeholder="Ex: O comentário contém linguagem inadequada e ofensiva..."></textarea>
-                        </div>
-                        <div class="px-6 py-4 bg-gray-50 flex justify-end items-center space-x-3 rounded-b-lg">
-                            <button onclick="cancelRejection()"
-                                class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
-                                Cancelar
-                            </button>
-                            <button onclick="showRejectionPreview()"
-                                class="px-4 py-2 text-sm font-medium text-white bg-primary-600 rounded-md hover:bg-primary-700">
-                                Continuar para Visualização
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- ETAPA 2: Pré-visualização do E-mail -->
-                    <div id="rejection-step-2" class="hidden">
-                        <div class="p-6 border-b border-gray-200">
-                            <h3 class="text-xl font-semibold text-gray-800">Pré-visualização do E-mail</h3>
-                            <p class="text-sm text-gray-600 mt-1">É assim que o cidadão receberá a notificação por
-                                e-mail.
-                            </p>
-                        </div>
-                        <div class="p-6 space-y-4 bg-gray-50 text-sm text-gray-700">
-                            <p><strong>Assunto:</strong> Seu comentário na consulta pública foi revisado</p>
-                            <div class="bg-white p-6 rounded-md border border-gray-200 space-y-4">
-                                <p>Olá, <span class="font-medium" id="email-preview-user-name">[Nome do Cidadão]</span>.
-                                </p>
-                                <p>Agradecemos sua participação na consulta pública <span class="font-medium"
-                                        id="email-preview-consultation-name">"[Nome da Consulta]"</span>.</p>
-                                <p>Seu comentário, reproduzido abaixo, foi analisado por nossa equipe de moderação e
-                                    infelizmente não pôde ser aprovado pelo seguinte motivo:</p>
-                                <blockquote id="rejection-reason-preview"
-                                    class="mt-2 p-3 bg-red-50 text-red-800 border-l-4 border-red-400 rounded-r-lg">
-                                    <!-- O motivo inserido pelo gestor aparecerá aqui -->
-                                </blockquote>
-                                <div class="mt-4 pt-4 border-t">
-                                    <p class="text-xs text-gray-500 mb-1">Seu comentário original:</p>
-                                    <p class="text-gray-600 italic" id="email-preview-original-comment">"[Cópia do
-                                        comentário original do usuário]"</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="px-6 py-4 bg-gray-100 flex justify-end items-center space-x-3 rounded-b-lg">
-                            <button onclick="returnToRejectionEdit()"
-                                class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
-                                Voltar e Editar
-                            </button>
-                            <button onclick="confirmRejection()"
-                                class="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-md hover:bg-red-700">
-                                Confirmar e Enviar Notificação
-                            </button>
-                        </div>
+            <!-- Tabela de Comentários -->
+            <div class="space-y-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h2 class="text-xl font-bold text-gray-900">Comentários Recebidos</h2>
+                        <p class="text-gray-600 mt-1">Modere e gerencie os comentários dos cidadãos</p>
                     </div>
                 </div>
-            </div>
-            <!-- FIM DO MODAL DE REJEIÇÃO MELHORADO -->
 
-            <!-- INÍCIO DO MODAL DE NOVA CONSULTA MELHORADO -->
-            <div id="new-consultation-modal"
-                class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
-                <div class="relative min-h-screen md:flex md:items-center md:justify-center p-4">
-                    <div class="bg-white rounded-lg shadow-xl w-full max-w-3xl mx-auto my-8">
-                        <form id="new-consultation-form" class="h-full flex flex-col">
-                            <div
-                                class="p-6 border-b border-gray-200 flex justify-between items-center sticky top-0 bg-white z-10 rounded-t-lg">
-                                <h3 class="text-xl font-semibold text-gray-800">Criar Nova Consulta Pública</h3>
-                                <button type="button" onclick="closeNewConsultationModal()"
-                                    class="text-gray-400 hover:text-gray-600">
-                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M6 18L18 6M6 6l12 12"></path>
-                                    </svg>
-                                </button>
+                <!-- Barra de Busca de Comentários -->
+                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 mb-3">
+                    <div class="flex gap-3">
+                        <!-- Campo de Busca -->
+                        <div class="relative flex-1">
+                            <input type="text" id="comments-search-input"
+                                class="w-full pl-12 pr-12 h-12 border-2 border-gray-200 rounded-lg text-gray-700 focus:border-primary-500 focus:ring focus:ring-primary-100 transition-all duration-200"
+                                placeholder="Buscar por usuário, conteúdo do comentário ou pergunta...">
+                            <div class="absolute left-4 top-1/2 transform -translate-y-1/2">
+                                <i class="fas fa-search text-gray-400 text-lg"></i>
                             </div>
+                        </div>
 
-                            <div class="p-6 space-y-6 overflow-y-auto">
-                                <div>
-                                    <label for="consultation-title-modal"
-                                        class="block text-sm font-medium text-gray-700 mb-1">Título da Consulta
-                                        Pública*</label>
-                                    <input type="text" id="consultation-title-modal" name="title" required
-                                        class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
-                                        placeholder="Ex: Política de Atendimento às Vítimas de Violência Doméstica">
-                                </div>
+                        <!-- Select de Status -->
+                        <div class="relative" style="min-width: 200px">
+                            <select id="comments-status-filter"
+                                class="w-full h-12 pl-4 pr-10 border-2 border-gray-200 rounded-lg appearance-none bg-white text-gray-700 text-sm focus:border-primary-500 focus:ring focus:ring-primary-100 transition-all duration-200">
+                                <option value="todos">Todos os status</option>
+                                <option value="pendente">Pendente</option>
+                                <option value="aprovado">Aprovado</option>
+                                <option value="rejeitado">Rejeitado</option>
+                            </select>
+                            <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                                <i class="fas fa-chevron-down text-gray-400"></i>
+                            </div>
+                        </div>
+                    </div>
 
-                                <div>
-                                    <label for="consultation-description-modal"
-                                        class="block text-sm font-medium text-gray-700 mb-1">Descrição*</label>
-                                    <textarea id="consultation-description-modal" name="description" rows="4" required
-                                        class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
-                                        placeholder="Descreva o objetivo e a importância desta consulta pública..."></textarea>
-                                </div>
+                    <!-- Tags de Filtros Ativos -->
+                    <div id="comments-active-filters" class="flex flex-wrap gap-2 mt-3">
+                        <!-- As tags serão inseridas aqui via JavaScript -->
+                    </div>
+                </div>
 
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <div>
-                                        <label for="responsible-unit"
-                                            class="block text-sm font-medium text-gray-700 mb-1">Unidade
-                                            Responsável*</label>
-                                        <select id="responsible-unit" name="responsibleUnit" required
-                                            class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
-                                            <option value="">Selecione a unidade responsável</option>
-                                            <option value="gabinete">Gabinete do Procurador-Geral</option>
-                                            <option value="secretaria">Secretaria de Administração</option>
-                                            <option value="nucleo">Núcleo de Direitos Humanos</option>
-                                            <option value="coordenadoria">Coordenadoria de Políticas Públicas</option>
-                                        </select>
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-x-auto">
+                <div class="overflow-hidden">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th scope="col"
+                                    class="px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">
+                                    #
+                                </th>
+                                <th scope="col"
+                                    class="px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Usuário
+                                </th>
+                                <th scope="col"
+                                    class="hidden md:table-cell px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Pergunta
+                                </th>
+                                <th scope="col"
+                                    class="hidden md:table-cell px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">
+                                    Data/Hora
+                                </th>
+                                <th scope="col"
+                                    class="px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">
+                                    Status
+                                </th>
+                                <th scope="col"
+                                    class="px-3 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">
+                                    Ações
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="comments-table-body" class="bg-white divide-y divide-gray-200">
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    #001
+                                </td>
+                                <td class="px-6 py-4">
+                                    <div class="flex flex-col">
+                                        <div class="text-sm font-medium text-gray-900 break-words">Maria Silva Santos</div>
+                                        <div class="text-sm text-gray-500">maria.silva@email.com</div>
                                     </div>
-                                    <div>
-                                        <label for="category"
-                                            class="block text-sm font-medium text-gray-700 mb-1">Categoria*</label>
-                                        <select id="category" name="category" required
-                                            class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
-                                            <option value="">Selecione a categoria</option>
-                                            <option value="saude">Saúde</option>
-                                            <option value="educacao">Educação</option>
-                                            <option value="seguranca">Segurança Pública</option>
-                                            <option value="transporte">Transporte</option>
-                                            <option value="meio-ambiente">Meio Ambiente</option>
-                                            <option value="direitos-humanos">Direitos Humanos</option>
-                                        </select>
+                                </td>
+                                <td class="hidden md:table-cell px-6 py-4 text-sm text-gray-900">
+                                    <div class="max-w-xs truncate">
+                                        Qual sua opinião sobre a proposta de integração entre ônibus e metrô?
                                     </div>
-                                </div>
-
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <div>
-                                        <label for="start-date"
-                                            class="block text-sm font-medium text-gray-700 mb-1">Data de
-                                            Início*</label>
-                                        <input type="date" id="start-date" name="startDate" required
-                                            class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
-                                    </div>
-                                    <div>
-                                        <label for="end-date" class="block text-sm font-medium text-gray-700 mb-1">Data
-                                            de
-                                            Término*</label>
-                                        <input type="date" id="end-date" name="endDate" required
-                                            class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
-                                    </div>
-                                </div>
-
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <div>
-                                        <label for="consultation-status"
-                                            class="block text-sm font-medium text-gray-700 mb-1">Status</label>
-                                        <input type="text" id="consultation-status" name="status" value="Registrado"
-                                            disabled
-                                            class="mt-1 block w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 text-gray-600 cursor-not-allowed">
-                                        <p class="text-xs text-gray-500 mt-1">Status inicial da consulta pública</p>
-                                    </div>
-                                    <div>
-                                        <label for="request-origin"
-                                            class="block text-sm font-medium text-gray-700 mb-1">Origem
-                                            da Solicitação*</label>
-                                        <input type="text" id="request-origin" name="requestOrigin" required
-                                            class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
-                                            placeholder="Ex: Gabinete do Procurador-Geral, Ofício nº 123/2025">
-                                    </div>
-                                </div>
-
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <div>
-                                        <label for="related-pga"
-                                            class="block text-sm font-medium text-gray-700 mb-1">PGA
-                                            Relacionado (opcional)</label>
-                                        <input type="text" id="related-pga" name="relatedPga"
-                                            class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
-                                            placeholder="Ex: PGA 2025 - Combate à Violência Doméstica">
-                                    </div>
-                                    <div>
-                                        <label for="request-origin"
-                                            class="block text-sm font-medium text-gray-700 mb-1">Origem
-                                            da Solicitação*</label>
-                                        <input type="text" id="request-origin" name="requestOrigin" required
-                                            class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
-                                            placeholder="Ex: Gabinete do Procurador-Geral, Ofício nº 123/2025">
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <label for="reference-document"
-                                        class="block text-sm font-medium text-gray-700 mb-1">Documento
-                                        de Referência
-                                        (opcional)</label>
-                                    <div class="flex items-center space-x-2">
-                                        <input type="file" id="reference-document" name="referenceDocument"
-                                            accept=".pdf,.doc,.docx" class="hidden">
-                                        <label for="reference-document"
-                                            class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md cursor-pointer hover:bg-gray-300 transition-colors">
-                                            Escolher arquivo
-                                        </label>
-                                        <span id="file-name" class="text-sm text-gray-500">Nenhum arquivo
-                                            escolhido</span>
-                                    </div>
-                                    <p class="text-xs text-gray-500 mt-1">Formatos aceitos: PDF, DOC, DOCX. Tamanho
-                                        máximo:
-                                        10MB
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <label class="block text-sm font-medium text-gray-700 mb-3">Perguntas da Consulta
-                                        Pública</label>
-                                    <div id="questions-container" class="space-y-3 mb-3">
-                                        <div class="question-item flex items-center space-x-2">
-                                            <input type="text" name="questions[]"
-                                                class="flex-1 border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
-                                                placeholder="Digite uma pergunta para a consulta pública...">
-                                            <button type="button" onclick="removeQuestion(this)"
-                                                class="text-red-500 hover:text-red-700">
-                                                <i class="fas fa-trash-alt"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <button type="button" onclick="addQuestion()"
-                                        class="flex items-center text-primary-600 hover:text-primary-800 font-medium">
-                                        <i class="fas fa-plus mr-1"></i>
-                                        Adicionar Pergunta
+                                </td>
+                                <td class="hidden md:table-cell px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    12/12/2024<br>
+                                    <span class="text-xs">14:30</span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span
+                                        class="px-2 py-1 text-xs font-medium bg-yellow-100 text-yellow-800 rounded-full">
+                                        Pendente
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium space-x-2">
+                                    <button onclick="viewComment(1)" class="text-primary-600 hover:text-primary-900">
+                                        <i class="fas fa-eye"></i>
                                     </button>
-                                </div>
-
-                                <div class="flex items-start">
-                                    <div class="flex items-center h-5">
-                                        <input id="terms" name="terms" type="checkbox" required
-                                            class="h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300 rounded">
+                                    <button onclick="approveComment(1)" class="text-primary-600 hover:text-primary-900">
+                                        <i class="fas fa-check"></i>
+                                    </button>
+                                    <button onclick="rejectComment(1)" class="text-primary-600 hover:text-primary-900">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    #002
+                                </td>
+                                <td class="px-6 py-4">
+                                    <div class="flex flex-col">
+                                        <div class="text-sm font-medium text-gray-900 break-words">João Carlos Oliveira</div>
+                                        <div class="text-sm text-gray-500">joao.oliveira@email.com</div>
                                     </div>
-                                    <div class="ml-3 text-sm">
-                                        <label for="terms" class="font-medium text-gray-700">
-                                            Confirmo que esta consulta pública está de acordo com os termos de uso e
-                                            política de
-                                            privacidade da plataforma
-                                        </label>
+                                </td>
+                                <td class="hidden md:table-cell px-6 py-4 text-sm text-gray-900">
+                                    <div class="max-w-xs truncate">
+                                        Como você avalia a proposta de horários estendidos?
                                     </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="px-6 py-4 bg-gray-50 flex justify-end items-center space-x-3 border-t border-gray-200 sticky bottom-0 z-10 rounded-b-lg">
-                                <button type="button" onclick="closeNewConsultationModal()"
-                                    class="px-4 py-2 border border-gray-300 text-gray-700 font-medium rounded-md hover:bg-gray-50 transition-colors">
-                                    Cancelar
-                                </button>
-                                <button type="submit"
-                                    class="px-4 py-2 bg-primary-600 text-white font-medium rounded-md hover:bg-primary-700 transition-colors">
-                                    Criar Consulta
-                                </button>
-                            </div>
-                        </form>
-                    </div>
+                                </td>
+                                <td class="hidden md:table-cell px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    12/12/2024<br>
+                                    <span class="text-xs">13:45</span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span
+                                        class="px-2 py-1 text-xs font-medium bg-green-100 text-green-700 rounded-full">
+                                        Aprovado
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium space-x-2">
+                                    <button onclick="viewComment(2)" class="text-primary-600 hover:text-primary-900">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button onclick="approveComment(2)"
+                                        class="text-primary-600 hover:text-primary-900 opacity-50 cursor-not-allowed">
+                                        <i class="fas fa-check"></i>
+                                    </button>
+                                    <button onclick="rejectComment(2)" class="text-primary-600 hover:text-primary-900">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    #003
+                                </td>
+                                <td class="px-6 py-4">
+                                    <div class="flex flex-col">
+                                        <div class="text-sm font-medium text-gray-900 break-words">Ana Paula Costa</div>
+                                        <div class="text-sm text-gray-500">ana.costa@email.com</div>
+                                    </div>
+                                </td>
+                                <td class="hidden md:table-cell px-6 py-4 text-sm text-gray-900">
+                                    <div class="max-w-xs truncate">
+                                        Qual sua opinião sobre a proposta de integração entre ônibus e metrô?
+                                    </div>
+                                </td>
+                                <td class="hidden md:table-cell px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    11/12/2024<br>
+                                    <span class="text-xs">16:20</span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span
+                                        class="px-2 py-1 text-xs font-medium bg-red-100 text-red-700 rounded-full">
+                                        Rejeitado
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium space-x-2">
+                                    <button onclick="viewComment(3)" class="text-primary-600 hover:text-primary-900">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button onclick="approveComment(3)" class="text-primary-600 hover:text-primary-900">
+                                        <i class="fas fa-check"></i>
+                                    </button>
+                                    <button onclick="rejectComment(3)"
+                                        class="text-primary-600 hover:text-primary-900 opacity-50 cursor-not-allowed">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    #004
+                                </td>
+                                <td class="px-6 py-4">
+                                    <div class="flex flex-col">
+                                        <div class="text-sm font-medium text-gray-900 break-words">Maria Silva Santos</div>
+                                        <div class="text-sm text-gray-500">maria.silva@email.com</div>
+                                    </div>
+                                </td>
+                                <td class="hidden md:table-cell px-6 py-4 text-sm text-gray-900">
+                                    <div class="max-w-xs truncate">
+                                        Como você avalia a proposta de horários estendidos?
+                                    </div>
+                                </td>
+                                <td class="hidden md:table-cell px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    12/12/2024<br>
+                                    <span class="text-xs">14:32</span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span
+                                        class="px-2 py-1 text-xs font-medium bg-yellow-100 text-yellow-800 rounded-full">
+                                        Pendente
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium space-x-2">
+                                    <button onclick="viewComment(4)" class="text-primary-600 hover:text-primary-900">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button onclick="approveComment(4)" class="text-primary-600 hover:text-primary-900">
+                                        <i class="fas fa-check"></i>
+                                    </button>
+                                    <button onclick="rejectComment(4)" class="text-primary-600 hover:text-primary-900">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-            <!-- FIM DO MODAL DE NOVA CONSULTA -->
+            <div class="flex justify-end mt-8 pt-6 border-t border-gray-200">
+                <div class="flex flex-wrap gap-2">
+                    <button
+                        class="px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                        disabled>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <button class="px-3 py-2 text-sm bg-primary-600 text-white rounded-md">1</button>
+                    <button class="px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-50">2</button>
+                    <button class="px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-50">3</button>
+                    <button class="px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-50">4</button>
+                    <button class="px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-50">5</button>
+                    <button class="px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-50">6</button>
+                    <button class="px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-50">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
 
-            <!-- Modal de Confirmação de Publicação -->
-            <div id="publish-modal"
-                class="hidden fixed inset-0 bg-gray-600 bg-opacity-75 overflow-y-auto h-full w-full z-50 p-4 flex items-center justify-center">
-                <div
-                    class="bg-white rounded-2xl shadow-2xl w-full max-w-lg mx-auto my-8 transform transition-all opacity-100 scale-100">
-                    <div class="p-6 border-b border-gray-200 flex justify-between items-center">
-                        <div class="flex items-center space-x-3">
-                            <div class="bg-primary-100 p-2 rounded-full">
-                                <i class="fas fa-rocket text-primary-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold text-gray-800">Publicar Consulta</h3>
-                        </div>
-                        <button onclick="closePublishModal()"
-                            class="text-gray-400 hover:text-gray-600 rounded-full p-2 focus:outline-none focus:ring-2 focus:ring-gray-300">
-                            <i class="fas fa-times"></i>
-                        </button>
+        <div id="confirmation-modal"
+            class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">...</div>
+
+        <!-- INÍCIO DO MODAL DE REJEIÇÃO MELHORADO -->
+        <div id="rejection-modal"
+            class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50 flex items-center justify-center">
+            <div class="bg-white rounded-lg shadow-xl w-full max-w-2xl mx-auto my-8">
+
+                <!-- ETAPA 1: Inserir Motivo -->
+                <div id="rejection-step-1">
+                    <div class="p-6 border-b border-gray-200">
+                        <h3 class="text-xl font-semibold text-gray-800">Justificar o Motivo da Rejeição</h3>
+                        <p class="text-sm text-gray-600 mt-1">Descreva o motivo pelo qual o comentário não pode ser
+                            aprovado. Esta informação será enviada ao cidadão.</p>
                     </div>
-
-                    <div class="p-6 sm:p-8 space-y-6">
-                        <div>
-                            <p class="text-sm text-gray-600 mb-2">Você está prestes a publicar a seguinte consulta:</p>
-                            <div class="bg-gray-50 border border-gray-200 rounded-lg p-4">
-                                <p id="publish-modal-title" class="text-lg font-semibold text-gray-900"></p>
-                                <p id="publish-modal-id" class="text-sm text-gray-500"></p>
-                            </div>
-                        </div>
-
-                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
-                            <div class="flex items-start">
-                                <div class="flex-shrink-0">
-                                    <i class="fas fa-exclamation-triangle text-yellow-500 mt-1"></i>
-                                </div>
-                                <div class="ml-3">
-                                    <h3 class="text-sm font-semibold text-yellow-800">Atenção</h3>
-                                    <div class="mt-1 text-sm text-yellow-700 space-y-1">
-                                        <p><span class="font-semibold">Visibilidade:</span> Ficará disponível para todos
-                                            os cidadãos.</p>
-                                        <p><span class="font-semibold">Contribuições:</span> Começará a receber
-                                            comentários imediatamente.</p>
-                                        <p><span class="font-semibold">Período:</span> As datas de início e fim serão
-                                            respeitadas.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <fieldset class="space-y-4">
-                            <legend class="text-base font-medium text-gray-900">Opções de Publicação</legend>
-                            <div
-                                class="relative flex items-start p-4 border border-gray-300 rounded-lg has-[:checked]:border-primary-500 has-[:checked]:bg-primary-50">
-                                <div class="flex items-center h-5">
-                                    <input id="publish-immediate" type="radio" name="publish-type" value="immediate"
-                                        checked class="h-4 w-4 text-primary-600 border-gray-300 focus:ring-primary-500">
-                                </div>
-                                <div class="ml-3 text-sm">
-                                    <label for="publish-immediate" class="font-semibold text-gray-800">Publicar
-                                        Imediatamente</label>
-                                    <p class="text-gray-600">A consulta se tornará ativa assim que confirmar.</p>
-                                </div>
-                            </div>
-                            <div
-                                class="relative flex items-start p-4 border border-gray-300 rounded-lg has-[:checked]:border-primary-500 has-[:checked]:bg-primary-50">
-                                <div class="flex items-center h-5">
-                                    <input id="publish-scheduled" type="radio" name="publish-type" value="scheduled"
-                                        class="h-4 w-4 text-primary-600 border-gray-300 focus:ring-primary-500">
-                                </div>
-                                <div class="ml-3 text-sm">
-                                    <label for="publish-scheduled" class="font-semibold text-gray-800">Agendar
-                                        Publicação</label>
-                                    <p class="text-gray-600">Escolha uma data e hora para a publicação automática.</p>
-                                    <div id="schedule-options" class="mt-3 hidden">
-                                        <input type="datetime-local" id="schedule-date"
-                                            class="block w-full border-gray-300 rounded-md shadow-sm py-2 px-3 focus:ring-primary-500 focus:border-primary-500 sm:text-sm">
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
+                    <div class="p-6">
+                        <label for="rejection-reason-input" class="block text-sm font-medium text-gray-700 mb-2">Motivo
+                            da Rejeição:</label>
+                        <textarea id="rejection-reason-input" rows="5"
+                            class="w-full border border-gray-300 rounded-md p-3 text-sm focus:ring-primary-500 focus:border-primary-500"
+                            placeholder="Ex: O comentário contém linguagem inadequada e ofensiva..."></textarea>
                     </div>
-
-                    <div
-                        class="px-6 py-4 bg-gray-50 flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-3 rounded-b-2xl">
-                        <button onclick="closePublishModal()"
-                            class="w-full sm:w-auto mt-2 sm:mt-0 px-6 py-2.5 text-sm font-semibold text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400">
+                    <div class="px-6 py-4 bg-gray-50 flex justify-end items-center space-x-3 rounded-b-lg">
+                        <button onclick="cancelRejection()"
+                            class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
                             Cancelar
                         </button>
-                        <button onclick="confirmPublish()"
-                            class="w-full sm:w-auto px-6 py-2.5 text-sm font-semibold text-white bg-primary-600 rounded-lg hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 flex items-center justify-center">
-                            <i class="fas fa-check mr-2"></i>
-                            Confirmar Publicação
+                        <button onclick="showRejectionPreview()"
+                            class="px-4 py-2 text-sm font-medium text-white bg-primary-600 rounded-md hover:bg-primary-700">
+                            Continuar para Visualização
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ETAPA 2: Pré-visualização do E-mail -->
+                <div id="rejection-step-2" class="hidden">
+                    <div class="p-6 border-b border-gray-200">
+                        <h3 class="text-xl font-semibold text-gray-800">Pré-visualização do E-mail</h3>
+                        <p class="text-sm text-gray-600 mt-1">É assim que o cidadão receberá a notificação por e-mail.
+                        </p>
+                    </div>
+                    <div class="p-6 space-y-4 bg-gray-50 text-sm text-gray-700">
+                        <p><strong>Assunto:</strong> Seu comentário na consulta pública foi revisado</p>
+                        <div class="bg-white p-6 rounded-md border border-gray-200 space-y-4">
+                            <p>Olá, <span class="font-medium" id="email-preview-user-name">[Nome do Cidadão]</span>.</p>
+                            <p>Agradecemos sua participação na consulta pública <span class="font-medium"
+                                    id="email-preview-consultation-name">"[Nome da Consulta]"</span>.</p>
+                            <p>Seu comentário, reproduzido abaixo, foi analisado por nossa equipe de moderação e
+                                infelizmente não pôde ser aprovado pelo seguinte motivo:</p>
+                            <blockquote id="rejection-reason-preview"
+                                class="mt-2 p-3 bg-red-50 text-red-800 border-l-4 border-red-400 rounded-r-lg">
+                                <!-- O motivo inserido pelo gestor aparecerá aqui -->
+                            </blockquote>
+                            <div class="mt-4 pt-4 border-t">
+                                <p class="text-xs text-gray-500 mb-1">Seu comentário original:</p>
+                                <p class="text-gray-600 italic" id="email-preview-original-comment">"[Cópia do
+                                    comentário original do usuário]"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-gray-100 flex justify-end items-center space-x-3 rounded-b-lg">
+                        <button onclick="returnToRejectionEdit()"
+                            class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
+                            Voltar e Editar
+                        </button>
+                        <button onclick="confirmRejection()"
+                            class="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-md hover:bg-red-700">
+                            Confirmar e Enviar Notificação
                         </button>
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- FIM DO MODAL DE REJEIÇÃO MELHORADO -->
 
-            <!-- Modal de Edição -->
-            <div id="edit-modal"
-                class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50 p-4">
-                <div class="relative bg-white rounded-lg shadow-xl w-full max-w-3xl mx-auto my-8">
-                    <form id="edit-consultation-form" class="flex flex-col max-h-[90vh]">
+        <!-- INÍCIO DO MODAL DE NOVA CONSULTA MELHORADO -->
+        <div id="new-consultation-modal"
+            class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
+            <div class="relative min-h-screen md:flex md:items-center md:justify-center p-4">
+                <div class="bg-white rounded-lg shadow-xl w-full max-w-3xl mx-auto my-8">
+                    <form id="new-consultation-form" class="h-full flex flex-col">
                         <div
                             class="p-6 border-b border-gray-200 flex justify-between items-center sticky top-0 bg-white z-10 rounded-t-lg">
-                            <h3 class="text-xl font-semibold text-gray-800">Editar Consulta Pública</h3>
-                            <button type="button" onclick="closeEditModal()" class="text-gray-400 hover:text-gray-600">
+                            <h3 class="text-xl font-semibold text-gray-800">Criar Nova Consulta Pública</h3>
+                            <button type="button" onclick="closeNewConsultationModal()"
+                                class="text-gray-400 hover:text-gray-600">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M6 18L18 6M6 6l12 12"></path>
@@ -1273,28 +970,29 @@
                         </div>
 
                         <div class="p-6 space-y-6 overflow-y-auto">
-                            <input type="hidden" id="edit-consultation-id">
-
                             <div>
-                                <label for="edit-title" class="block text-sm font-medium text-gray-700 mb-1">Título da
-                                    Consulta Pública*</label>
-                                <input type="text" id="edit-title" name="title" required
-                                    class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
+                                <label for="consultation-title-modal"
+                                    class="block text-sm font-medium text-gray-700 mb-1">Título da Consulta
+                                    Pública*</label>
+                                <input type="text" id="consultation-title-modal" name="title" required
+                                    class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
+                                    placeholder="Ex: Política de Atendimento às Vítimas de Violência Doméstica">
                             </div>
 
                             <div>
-                                <label for="edit-description"
+                                <label for="consultation-description-modal"
                                     class="block text-sm font-medium text-gray-700 mb-1">Descrição*</label>
-                                <textarea id="edit-description" name="description" rows="4" required
-                                    class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"></textarea>
+                                <textarea id="consultation-description-modal" name="description" rows="4" required
+                                    class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
+                                    placeholder="Descreva o objetivo e a importância desta consulta pública..."></textarea>
                             </div>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
-                                    <label for="edit-responsible-unit"
+                                    <label for="responsible-unit"
                                         class="block text-sm font-medium text-gray-700 mb-1">Unidade
                                         Responsável*</label>
-                                    <select id="edit-responsible-unit" name="responsibleUnit" required
+                                    <select id="responsible-unit" name="responsibleUnit" required
                                         class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
                                         <option value="">Selecione a unidade responsável</option>
                                         <option value="gabinete">Gabinete do Procurador-Geral</option>
@@ -1304,9 +1002,9 @@
                                     </select>
                                 </div>
                                 <div>
-                                    <label for="edit-category"
+                                    <label for="category"
                                         class="block text-sm font-medium text-gray-700 mb-1">Categoria*</label>
-                                    <select id="edit-category" name="category" required
+                                    <select id="category" name="category" required
                                         class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
                                         <option value="">Selecione a categoria</option>
                                         <option value="saude">Saúde</option>
@@ -1321,37 +1019,33 @@
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
-                                    <label for="edit-start-date"
-                                        class="block text-sm font-medium text-gray-700 mb-1">Data
-                                        de Início*</label>
-                                    <input type="date" id="edit-start-date" name="startDate" required
+                                    <label for="start-date" class="block text-sm font-medium text-gray-700 mb-1">Data de
+                                        Início*</label>
+                                    <input type="date" id="start-date" name="startDate" required
                                         class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
                                 </div>
                                 <div>
-                                    <label for="edit-end-date" class="block text-sm font-medium text-gray-700 mb-1">Data
-                                        de
+                                    <label for="end-date" class="block text-sm font-medium text-gray-700 mb-1">Data de
                                         Término*</label>
-                                    <input type="date" id="edit-end-date" name="endDate" required
+                                    <input type="date" id="end-date" name="endDate" required
                                         class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
                                 </div>
                             </div>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
-                                    <label for="edit-status"
-                                        class="block text-sm font-medium text-gray-700 mb-1">Status*</label>
-                                    <select id="edit-status" name="status" required
-                                        class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
-                                        <option value="Registrada">Registrada</option>
-                                        <option value="Ativa">Ativa</option>
-                                        <option value="Encerrada">Encerrada</option>
-                                    </select>
+                                    <label for="consultation-status"
+                                        class="block text-sm font-medium text-gray-700 mb-1">Status</label>
+                                    <input type="text" id="consultation-status" name="status" value="Registrado"
+                                        disabled
+                                        class="mt-1 block w-full border border-gray-200 rounded-md px-3 py-2 bg-gray-50 text-gray-600 cursor-not-allowed">
+                                    <p class="text-xs text-gray-500 mt-1">Status inicial da consulta pública</p>
                                 </div>
                                 <div>
-                                    <label for="edit-request-origin"
-                                        class="block text-sm font-medium text-gray-700 mb-1">Origem da
-                                        Solicitação*</label>
-                                    <input type="text" id="edit-request-origin" name="requestOrigin" required
+                                    <label for="request-origin"
+                                        class="block text-sm font-medium text-gray-700 mb-1">Origem
+                                        da Solicitação*</label>
+                                    <input type="text" id="request-origin" name="requestOrigin" required
                                         class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
                                         placeholder="Ex: Gabinete do Procurador-Geral, Ofício nº 123/2025">
                                 </div>
@@ -1359,226 +1053,491 @@
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
-                                    <label for="edit-related-pga"
-                                        class="block text-sm font-medium text-gray-700 mb-1">PGA
+                                    <label for="related-pga" class="block text-sm font-medium text-gray-700 mb-1">PGA
                                         Relacionado (opcional)</label>
-                                    <input type="text" id="edit-related-pga" name="relatedPga"
+                                    <input type="text" id="related-pga" name="relatedPga"
                                         class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
                                         placeholder="Ex: PGA 2025 - Combate à Violência Doméstica">
                                 </div>
                                 <div>
-                                    <label for="edit-reference-document"
-                                        class="block text-sm font-medium text-gray-700 mb-1">Documento de Referência
-                                        (opcional)</label>
-                                    <div class="flex items-center space-x-2">
-                                        <input type="file" id="edit-reference-document" name="referenceDocument"
-                                            accept=".pdf,.doc,.docx" class="hidden">
-                                        <label for="edit-reference-document"
-                                            class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md cursor-pointer hover:bg-gray-300 transition-colors">
-                                            Escolher arquivo
-                                        </label>
-                                        <span id="edit-file-name" class="text-sm text-gray-500">Nenhum arquivo
-                                            escolhido</span>
-                                    </div>
-                                    <p class="text-xs text-gray-500 mt-1">Formatos aceitos: PDF, DOC, DOCX. Tamanho
-                                        máximo:
-                                        10MB</p>
+                                    <label for="request-origin"
+                                        class="block text-sm font-medium text-gray-700 mb-1">Origem
+                                        da Solicitação*</label>
+                                    <input type="text" id="request-origin" name="requestOrigin" required
+                                        class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
+                                        placeholder="Ex: Gabinete do Procurador-Geral, Ofício nº 123/2025">
                                 </div>
                             </div>
 
-                            <div id="edit-questions-container">
+                            <div>
+                                <label for="reference-document"
+                                    class="block text-sm font-medium text-gray-700 mb-1">Documento
+                                    de Referência
+                                    (opcional)</label>
+                                <div class="flex items-center space-x-2">
+                                    <input type="file" id="reference-document" name="referenceDocument"
+                                        accept=".pdf,.doc,.docx" class="hidden">
+                                    <label for="reference-document"
+                                        class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md cursor-pointer hover:bg-gray-300 transition-colors">
+                                        Escolher arquivo
+                                    </label>
+                                    <span id="file-name" class="text-sm text-gray-500">Nenhum arquivo escolhido</span>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-1">Formatos aceitos: PDF, DOC, DOCX. Tamanho máximo:
+                                    10MB
+                                </p>
+                            </div>
+
+                            <div>
                                 <label class="block text-sm font-medium text-gray-700 mb-3">Perguntas da Consulta
                                     Pública</label>
-                                <div class="space-y-3 mb-3" id="edit-questions-list"></div>
-                                <button type="button" onclick="addEditQuestion()"
+                                <div id="questions-container" class="space-y-3 mb-3">
+                                    <div class="question-item flex items-center space-x-2">
+                                        <input type="text" name="questions[]"
+                                            class="flex-1 border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
+                                            placeholder="Digite uma pergunta para a consulta pública...">
+                                        <button type="button" onclick="removeQuestion(this)"
+                                            class="text-red-500 hover:text-red-700">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <button type="button" onclick="addQuestion()"
                                     class="flex items-center text-primary-600 hover:text-primary-800 font-medium">
                                     <i class="fas fa-plus mr-1"></i>
                                     Adicionar Pergunta
                                 </button>
                             </div>
+
+                            <div class="flex items-start">
+                                <div class="flex items-center h-5">
+                                    <input id="terms" name="terms" type="checkbox" required
+                                        class="h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300 rounded">
+                                </div>
+                                <div class="ml-3 text-sm">
+                                    <label for="terms" class="font-medium text-gray-700">
+                                        Confirmo que esta consulta pública está de acordo com os termos de uso e
+                                        política de
+                                        privacidade da plataforma
+                                    </label>
+                                </div>
+                            </div>
                         </div>
 
                         <div
                             class="px-6 py-4 bg-gray-50 flex justify-end items-center space-x-3 border-t border-gray-200 sticky bottom-0 z-10 rounded-b-lg">
-                            <button type="button" onclick="closeEditModal()"
+                            <button type="button" onclick="closeNewConsultationModal()"
                                 class="px-4 py-2 border border-gray-300 text-gray-700 font-medium rounded-md hover:bg-gray-50 transition-colors">
                                 Cancelar
                             </button>
                             <button type="submit"
                                 class="px-4 py-2 bg-primary-600 text-white font-medium rounded-md hover:bg-primary-700 transition-colors">
-                                Salvar Alterações
+                                Criar Consulta
                             </button>
                         </div>
                     </form>
                 </div>
             </div>
+        </div>
+        <!-- FIM DO MODAL DE NOVA CONSULTA -->
 
-            <!-- Modal de Visualização de Comentário -->
-            <div id="view-comment-modal"
-                class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
-                <div class="relative min-h-screen md:flex md:items-center md:justify-center p-4">
-                    <div class="bg-white rounded-lg shadow-xl w-full max-w-2xl mx-auto my-8">
-                        <div class="p-6 border-b border-gray-200 flex justify-between items-center">
-                            <h3 class="text-xl font-semibold text-gray-800">Detalhes do Comentário</h3>
-                            <button type="button" onclick="closeViewCommentModal()"
-                                class="text-gray-400 hover:text-gray-600">
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M6 18L18 6M6 6l12 12"></path>
-                                </svg>
-                            </button>
+        <!-- Modal de Confirmação de Publicação -->
+        <div id="publish-modal"
+            class="hidden fixed inset-0 bg-gray-600 bg-opacity-75 overflow-y-auto h-full w-full z-50 p-4 flex items-center justify-center">
+            <div class="bg-white rounded-2xl shadow-2xl w-full max-w-lg mx-auto my-8 transform transition-all opacity-100 scale-100">
+                <div class="p-6 border-b border-gray-200 flex justify-between items-center">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-primary-100 p-2 rounded-full">
+                           <i class="fas fa-rocket text-primary-600"></i>
                         </div>
+                        <h3 class="text-xl font-bold text-gray-800">Publicar Consulta</h3>
+                    </div>
+                    <button onclick="closePublishModal()" class="text-gray-400 hover:text-gray-600 rounded-full p-2 focus:outline-none focus:ring-2 focus:ring-gray-300">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
 
-                        <div class="p-6 space-y-4">
-                            <div class="grid grid-cols-2 gap-4">
-                                <div>
-                                    <label class="block text-sm font-medium text-gray-700">Usuário</label>
-                                    <p id="view-comment-user" class="mt-1 text-sm text-gray-900"></p>
-                                </div>
-                                <div>
-                                    <label class="block text-sm font-medium text-gray-700">Data/Hora</label>
-                                    <p id="view-comment-date" class="mt-1 text-sm text-gray-900"></p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700">Pergunta</label>
-                                <div id="view-comment-question"
-                                    class="mt-1 p-3 bg-gray-50 rounded-lg text-sm text-gray-900"></div>
-                            </div>
-
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700">Resposta</label>
-                                <div id="view-comment-response"
-                                    class="mt-1 p-3 bg-blue-50 rounded-lg text-sm text-gray-900"></div>
-                            </div>
-
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700">Status</label>
-                                <span id="view-comment-status"
-                                    class="mt-1 inline-flex px-2 py-1 text-xs font-medium rounded-full"></span>
-                            </div>
-                        </div>
-
-                        <div class="px-6 py-4 bg-gray-50 flex justify-end space-x-3 rounded-b-lg">
-                            <button onclick="closeViewCommentModal()"
-                                class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
-                                Fechar
-                            </button>
-                            <button id="view-approve-btn" onclick="approveFromView()"
-                                class="px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-md hover:bg-green-700">
-                                Aprovar
-                            </button>
-                            <button id="view-reject-btn" onclick="rejectFromView()"
-                                class="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-md hover:bg-red-700">
-                                Rejeitar
-                            </button>
+                <div class="p-6 sm:p-8 space-y-6">
+                    <div>
+                        <p class="text-sm text-gray-600 mb-2">Você está prestes a publicar a seguinte consulta:</p>
+                        <div class="bg-gray-50 border border-gray-200 rounded-lg p-4">
+                           <p id="publish-modal-title" class="text-lg font-semibold text-gray-900"></p>
+                           <p id="publish-modal-id" class="text-sm text-gray-500"></p>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Modal de Aprovação de Comentário -->
-            <div id="approve-comment-modal"
-                class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
-                <div class="relative min-h-screen md:flex md:items-center md:justify-center p-4">
-                    <div class="bg-white rounded-lg shadow-xl w-full max-w-md mx-auto my-8">
-                        <div class="p-6 border-b border-gray-200">
-                            <div class="flex items-center">
-                                <div class="flex-shrink-0">
-                                    <i class="fas fa-check-circle text-green-400 text-2xl"></i>
-                                </div>
-                                <div class="ml-3">
-                                    <h3 class="text-lg font-medium text-gray-900">Aprovar Comentário</h3>
+                    
+                    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-exclamation-triangle text-yellow-500 mt-1"></i>
+                            </div>
+                            <div class="ml-3">
+                                <h3 class="text-sm font-semibold text-yellow-800">Atenção</h3>
+                                <div class="mt-1 text-sm text-yellow-700 space-y-1">
+                                    <p><span class="font-semibold">Visibilidade:</span> Ficará disponível para todos os cidadãos.</p>
+                                    <p><span class="font-semibold">Contribuições:</span> Começará a receber comentários imediatamente.</p>
+                                    <p><span class="font-semibold">Período:</span> As datas de início e fim serão respeitadas.</p>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="p-6">
-                            <p class="text-sm text-gray-600 mb-4">
-                                Tem certeza que deseja aprovar este comentário? Ele ficará visível publicamente na
-                                consulta.
-                            </p>
-
-                            <div class="mb-4">
-                                <label for="approve-reason" class="block text-sm font-medium text-gray-700 mb-2">
-                                    Observações (opcional)
-                                </label>
-                                <textarea id="approve-reason" rows="3"
-                                    class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-green-500 focus:border-green-500"
-                                    placeholder="Adicione observações sobre a aprovação..."></textarea>
-                            </div>
-                        </div>
-
-                        <div class="px-6 py-4 bg-gray-50 flex justify-end space-x-3 rounded-b-lg">
-                            <button onclick="closeApproveModal()"
-                                class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
-                                Cancelar
-                            </button>
-                            <button onclick="confirmApprove()"
-                                class="px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-md hover:bg-green-700">
-                                Confirmar Aprovação
-                            </button>
                         </div>
                     </div>
+
+                    <fieldset class="space-y-4">
+                        <legend class="text-base font-medium text-gray-900">Opções de Publicação</legend>
+                        <div class="relative flex items-start p-4 border border-gray-300 rounded-lg has-[:checked]:border-primary-500 has-[:checked]:bg-primary-50">
+                             <div class="flex items-center h-5">
+                                <input id="publish-immediate" type="radio" name="publish-type" value="immediate" checked class="h-4 w-4 text-primary-600 border-gray-300 focus:ring-primary-500">
+                             </div>
+                             <div class="ml-3 text-sm">
+                                <label for="publish-immediate" class="font-semibold text-gray-800">Publicar Imediatamente</label>
+                                <p class="text-gray-600">A consulta se tornará ativa assim que confirmar.</p>
+                             </div>
+                        </div>
+                         <div class="relative flex items-start p-4 border border-gray-300 rounded-lg has-[:checked]:border-primary-500 has-[:checked]:bg-primary-50">
+                             <div class="flex items-center h-5">
+                                <input id="publish-scheduled" type="radio" name="publish-type" value="scheduled" class="h-4 w-4 text-primary-600 border-gray-300 focus:ring-primary-500">
+                             </div>
+                             <div class="ml-3 text-sm">
+                                <label for="publish-scheduled" class="font-semibold text-gray-800">Agendar Publicação</label>
+                                <p class="text-gray-600">Escolha uma data e hora para a publicação automática.</p>
+                                <div id="schedule-options" class="mt-3 hidden">
+                                   <input type="datetime-local" id="schedule-date" class="block w-full border-gray-300 rounded-md shadow-sm py-2 px-3 focus:ring-primary-500 focus:border-primary-500 sm:text-sm">
+                                </div>
+                             </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="px-6 py-4 bg-gray-50 flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-3 rounded-b-2xl">
+                    <button onclick="closePublishModal()"
+                        class="w-full sm:w-auto mt-2 sm:mt-0 px-6 py-2.5 text-sm font-semibold text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400">
+                        Cancelar
+                    </button>
+                    <button onclick="confirmPublish()"
+                        class="w-full sm:w-auto px-6 py-2.5 text-sm font-semibold text-white bg-primary-600 rounded-lg hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 flex items-center justify-center">
+                        <i class="fas fa-check mr-2"></i>
+                        Confirmar Publicação
+                    </button>
                 </div>
             </div>
+        </div>
 
-            <!-- Modal de Rejeição de Comentário -->
-            <div id="reject-comment-modal"
-                class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
-                <div class="relative min-h-screen md:flex md:items-center md:justify-center p-4">
-                    <div class="bg-white rounded-lg shadow-xl w-full max-w-md mx-auto my-8">
-                        <div class="p-6 border-b border-gray-200">
-                            <div class="flex items-center">
-                                <div class="flex-shrink-0">
-                                    <i class="fas fa-exclamation-triangle text-red-400 text-2xl"></i>
-                                </div>
-                                <div class="ml-3">
-                                    <h3 class="text-lg font-medium text-gray-900">Rejeitar Comentário</h3>
-                                </div>
-                            </div>
+        <!-- Modal de Edição -->
+        <div id="edit-modal"
+            class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50 p-4">
+            <div class="relative bg-white rounded-lg shadow-xl w-full max-w-3xl mx-auto my-8">
+                <form id="edit-consultation-form" class="flex flex-col max-h-[90vh]">
+                    <div
+                        class="p-6 border-b border-gray-200 flex justify-between items-center sticky top-0 bg-white z-10 rounded-t-lg">
+                        <h3 class="text-xl font-semibold text-gray-800">Editar Consulta Pública</h3>
+                        <button type="button" onclick="closeEditModal()" class="text-gray-400 hover:text-gray-600">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="p-6 space-y-6 overflow-y-auto">
+                        <input type="hidden" id="edit-consultation-id">
+
+                        <div>
+                            <label for="edit-title" class="block text-sm font-medium text-gray-700 mb-1">Título da
+                                Consulta Pública*</label>
+                            <input type="text" id="edit-title" name="title" required
+                                class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
                         </div>
 
-                        <div class="p-6">
-                            <p class="text-sm text-gray-600 mb-4">
-                                Tem certeza que deseja rejeitar este comentário? Esta ação não poderá ser desfeita.
-                            </p>
+                        <div>
+                            <label for="edit-description"
+                                class="block text-sm font-medium text-gray-700 mb-1">Descrição*</label>
+                            <textarea id="edit-description" name="description" rows="4" required
+                                class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"></textarea>
+                        </div>
 
-                            <div class="mb-4">
-                                <label for="reject-reason" class="block text-sm font-medium text-gray-700 mb-2">
-                                    Motivo da rejeição *
-                                </label>
-                                <select id="reject-reason-select"
-                                    class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-red-500 focus:border-red-500 mb-2">
-                                    <option value="">Selecione o motivo</option>
-                                    <option value="conteudo-inadequado">Conteúdo inadequado</option>
-                                    <option value="spam">Spam</option>
-                                    <option value="ofensivo">Linguagem ofensiva</option>
-                                    <option value="fora-topico">Fora do tópico</option>
-                                    <option value="informacoes-falsas">Informações falsas</option>
-                                    <option value="outros">Outros</option>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="edit-responsible-unit"
+                                    class="block text-sm font-medium text-gray-700 mb-1">Unidade Responsável*</label>
+                                <select id="edit-responsible-unit" name="responsibleUnit" required
+                                    class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
+                                    <option value="">Selecione a unidade responsável</option>
+                                    <option value="gabinete">Gabinete do Procurador-Geral</option>
+                                    <option value="secretaria">Secretaria de Administração</option>
+                                    <option value="nucleo">Núcleo de Direitos Humanos</option>
+                                    <option value="coordenadoria">Coordenadoria de Políticas Públicas</option>
                                 </select>
-
-                                <textarea id="reject-reason" rows="3"
-                                    class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-red-500 focus:border-red-500"
-                                    placeholder="Detalhe o motivo da rejeição..."></textarea>
+                            </div>
+                            <div>
+                                <label for="edit-category"
+                                    class="block text-sm font-medium text-gray-700 mb-1">Categoria*</label>
+                                <select id="edit-category" name="category" required
+                                    class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
+                                    <option value="">Selecione a categoria</option>
+                                    <option value="saude">Saúde</option>
+                                    <option value="educacao">Educação</option>
+                                    <option value="seguranca">Segurança Pública</option>
+                                    <option value="transporte">Transporte</option>
+                                    <option value="meio-ambiente">Meio Ambiente</option>
+                                    <option value="direitos-humanos">Direitos Humanos</option>
+                                </select>
                             </div>
                         </div>
 
-                        <div class="px-6 py-4 bg-gray-50 flex justify-end space-x-3 rounded-b-lg">
-                            <button onclick="closeRejectModal()"
-                                class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
-                                Cancelar
-                            </button>
-                            <button onclick="confirmReject()"
-                                class="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-md hover:bg-red-700">
-                                Confirmar Rejeição
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="edit-start-date" class="block text-sm font-medium text-gray-700 mb-1">Data
+                                    de Início*</label>
+                                <input type="date" id="edit-start-date" name="startDate" required
+                                    class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
+                            </div>
+                            <div>
+                                <label for="edit-end-date" class="block text-sm font-medium text-gray-700 mb-1">Data de
+                                    Término*</label>
+                                <input type="date" id="edit-end-date" name="endDate" required
+                                    class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="edit-status"
+                                    class="block text-sm font-medium text-gray-700 mb-1">Status*</label>
+                                <select id="edit-status" name="status" required
+                                    class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500">
+                                    <option value="Registrada">Registrada</option>
+                                    <option value="Ativa">Ativa</option>
+                                    <option value="Encerrada">Encerrada</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="edit-request-origin"
+                                    class="block text-sm font-medium text-gray-700 mb-1">Origem da Solicitação*</label>
+                                <input type="text" id="edit-request-origin" name="requestOrigin" required
+                                    class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
+                                    placeholder="Ex: Gabinete do Procurador-Geral, Ofício nº 123/2025">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="edit-related-pga" class="block text-sm font-medium text-gray-700 mb-1">PGA
+                                    Relacionado (opcional)</label>
+                                <input type="text" id="edit-related-pga" name="relatedPga"
+                                    class="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-primary-500 focus:border-primary-500"
+                                    placeholder="Ex: PGA 2025 - Combate à Violência Doméstica">
+                            </div>
+                            <div>
+                                <label for="edit-reference-document"
+                                    class="block text-sm font-medium text-gray-700 mb-1">Documento de Referência
+                                    (opcional)</label>
+                                <div class="flex items-center space-x-2">
+                                    <input type="file" id="edit-reference-document" name="referenceDocument"
+                                        accept=".pdf,.doc,.docx" class="hidden">
+                                    <label for="edit-reference-document"
+                                        class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md cursor-pointer hover:bg-gray-300 transition-colors">
+                                        Escolher arquivo
+                                    </label>
+                                    <span id="edit-file-name" class="text-sm text-gray-500">Nenhum arquivo
+                                        escolhido</span>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-1">Formatos aceitos: PDF, DOC, DOCX. Tamanho máximo:
+                                    10MB</p>
+                            </div>
+                        </div>
+
+                        <div id="edit-questions-container">
+                            <label class="block text-sm font-medium text-gray-700 mb-3">Perguntas da Consulta
+                                Pública</label>
+                            <div class="space-y-3 mb-3" id="edit-questions-list"></div>
+                            <button type="button" onclick="addEditQuestion()"
+                                class="flex items-center text-primary-600 hover:text-primary-800 font-medium">
+                                <i class="fas fa-plus mr-1"></i>
+                                Adicionar Pergunta
                             </button>
                         </div>
                     </div>
+
+                    <div
+                        class="px-6 py-4 bg-gray-50 flex justify-end items-center space-x-3 border-t border-gray-200 sticky bottom-0 z-10 rounded-b-lg">
+                        <button type="button" onclick="closeEditModal()"
+                            class="px-4 py-2 border border-gray-300 text-gray-700 font-medium rounded-md hover:bg-gray-50 transition-colors">
+                            Cancelar
+                        </button>
+                        <button type="submit"
+                            class="px-4 py-2 bg-primary-600 text-white font-medium rounded-md hover:bg-primary-700 transition-colors">
+                            Salvar Alterações
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Modal de Visualização de Comentário -->
+        <div id="view-comment-modal"
+            class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
+            <div class="relative min-h-screen md:flex md:items-center md:justify-center p-4">
+                <div class="bg-white rounded-lg shadow-xl w-full max-w-2xl mx-auto my-8">
+                    <div class="p-6 border-b border-gray-200 flex justify-between items-center">
+                        <h3 class="text-xl font-semibold text-gray-800">Detalhes do Comentário</h3>
+                        <button type="button" onclick="closeViewCommentModal()"
+                            class="text-gray-400 hover:text-gray-600">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="p-6 space-y-4">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700">Usuário</label>
+                                <p id="view-comment-user" class="mt-1 text-sm text-gray-900"></p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700">Data/Hora</label>
+                                <p id="view-comment-date" class="mt-1 text-sm text-gray-900"></p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Pergunta</label>
+                            <div id="view-comment-question"
+                                class="mt-1 p-3 bg-gray-50 rounded-lg text-sm text-gray-900"></div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Resposta</label>
+                            <div id="view-comment-response"
+                                class="mt-1 p-3 bg-blue-50 rounded-lg text-sm text-gray-900"></div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Status</label>
+                            <span id="view-comment-status"
+                                class="mt-1 inline-flex px-2 py-1 text-xs font-medium rounded-full"></span>
+                        </div>
+                    </div>
+
+                    <div id="view-comment-modal-footer" class="px-6 py-4 bg-gray-50 flex justify-end space-x-3 rounded-b-lg">
+                        <button onclick="closeViewCommentModal()"
+                            class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
+                            Fechar
+                        </button>
+                        <!-- <button id="view-approve-btn" onclick="approveFromView()"
+                            class="px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-md hover:bg-green-700">
+                            Aprovar
+                        </button>
+                        <button id="view-reject-btn" onclick="rejectFromView()"
+                            class="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-md hover:bg-red-700">
+                            Rejeitar
+                        </button> -->
+                    </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Modal de Aprovação de Comentário -->
+        <div id="approve-comment-modal"
+            class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
+            <div class="relative min-h-screen md:flex md:items-center md:justify-center p-4">
+                <div class="bg-white rounded-lg shadow-xl w-full max-w-md mx-auto my-8">
+                    <div class="p-6 border-b border-gray-200">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-check-circle text-green-400 text-2xl"></i>
+                            </div>
+                            <div class="ml-3">
+                                <h3 class="text-lg font-medium text-gray-900">Aprovar Comentário</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6">
+                        <p class="text-sm text-gray-600 mb-4">
+                            Tem certeza que deseja aprovar este comentário? Ele ficará visível publicamente na consulta.
+                        </p>
+
+                        <div class="mb-4">
+                            <label for="approve-reason" class="block text-sm font-medium text-gray-700 mb-2">
+                                Observações (opcional)
+                            </label>
+                            <textarea id="approve-reason" rows="3"
+                                class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-green-500 focus:border-green-500"
+                                placeholder="Adicione observações sobre a aprovação..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="px-6 py-4 bg-gray-50 flex justify-end space-x-3 rounded-b-lg">
+                        <button onclick="closeApproveModal()"
+                            class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
+                            Cancelar
+                        </button>
+                        <button onclick="confirmApprove()"
+                            class="px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-md hover:bg-green-700">
+                            Confirmar Aprovação
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal de Rejeição de Comentário -->
+        <div id="reject-comment-modal"
+            class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
+            <div class="relative min-h-screen md:flex md:items-center md:justify-center p-4">
+                <div class="bg-white rounded-lg shadow-xl w-full max-w-md mx-auto my-8">
+                    <div class="p-6 border-b border-gray-200">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-exclamation-triangle text-red-400 text-2xl"></i>
+                            </div>
+                            <div class="ml-3">
+                                <h3 class="text-lg font-medium text-gray-900">Rejeitar Comentário</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6">
+                        <p class="text-sm text-gray-600 mb-4">
+                            Tem certeza que deseja rejeitar este comentário? Esta ação não poderá ser desfeita.
+                        </p>
+
+                        <div class="mb-4">
+                            <label for="reject-reason" class="block text-sm font-medium text-gray-700 mb-2">
+                                Motivo da rejeição *
+                            </label>
+                            <select id="reject-reason-select"
+                                class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-red-500 focus:border-red-500 mb-2">
+                                <option value="">Selecione o motivo</option>
+                                <option value="conteudo-inadequado">Conteúdo inadequado</option>
+                                <option value="spam">Spam</option>
+                                <option value="ofensivo">Linguagem ofensiva</option>
+                                <option value="fora-topico">Fora do tópico</option>
+                                <option value="informacoes-falsas">Informações falsas</option>
+                                <option value="outros">Outros</option>
+                            </select>
+
+                            <textarea id="reject-reason" rows="3"
+                                class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-red-500 focus:border-red-500"
+                                placeholder="Detalhe o motivo da rejeição..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="px-6 py-4 bg-gray-50 flex justify-end space-x-3 rounded-b-lg">
+                        <button onclick="closeRejectModal()"
+                            class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
+                            Cancelar
+                        </button>
+                        <button onclick="confirmReject()"
+                            class="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-md hover:bg-red-700">
+                            Confirmar Rejeição
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 
@@ -1640,6 +1599,40 @@
                 unidadeResponsavel: 'Secretaria de Cultura',
                 categoria: 'Cultura',
                 perguntas: []
+            },
+            {
+                id: 'CP-2023-018',
+                sequencial: 5,
+                titulo: 'Projeto de Lei de Proteção Ambiental',
+                descricao: 'Consulta pública para coletar opiniões sobre o projeto de lei de proteção ambiental.',
+                dataInicio: '15/11/2024',
+                dataFim: '15/12/2024',
+                status: 'Ativa',
+                comentariosPendentes: 20,
+                unidadeResponsavel: 'Secretaria de Meio Ambiente',
+                categoria: 'Meio Ambiente',
+                perguntas: [
+                    'Qual sua opinião sobre a criação de áreas de preservação ambiental?',
+                    'Como você avalia as penas propostas para infrações ambientais?',
+                    'Quais medidas você considera necessárias para promover a sustentabilidade?'
+                ]
+            },
+            {
+                id: 'CP-2023-019',
+                sequencial: 6,
+                titulo: 'Reforma do Código de Trânsito',
+                descricao: 'Consulta pública para coletar sugestões e opiniões sobre a reforma do Código de Trânsito.',
+                dataInicio: '20/11/2024',
+                dataFim: '20/12/2024',
+                status: 'Ativa',
+                comentariosPendentes: 18,
+                unidadeResponsavel: 'Secretaria de Segurança Pública',
+                categoria: 'Segurança Pública',
+                perguntas: [
+                    'Qual sua opinião sobre a criação de faixas exclusivas para ciclistas?',
+                    'Como você avalia a proposta de redução de velocidade em zonas residenciais?',
+                    'Quais medidas você considera necessárias para melhorar a segurança nas estradas?'
+                ]
             }
         ];
 
@@ -1779,18 +1772,11 @@
 
             // Atualiza os detalhes da consulta
             document.getElementById('consultation-title').textContent = consulta.titulo;
-
-            const statusElement = document.getElementById('consultation-status');
-            const statusClasses = {
-                'Ativa': 'bg-green-100 text-green-700',
-                'Registrada': 'bg-blue-100 text-blue-700',
-                'Encerrada': 'bg-red-100 text-red-700'
-            };
-            const statusClass = statusClasses[consulta.status] || 'bg-gray-100 text-gray-700';
-
-            statusElement.className = `px-3 py-1 text-sm font-medium rounded-full ${statusClass}`;
-            statusElement.textContent = consulta.status;
-
+            document.getElementById('consultation-status').innerHTML = `
+            <span class="px-3 py-1 text-sm font-medium ${consulta.status === 'Ativa' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'} rounded-full">
+                ${consulta.status}
+            </span>
+        `;
             document.getElementById('consultation-start-date').textContent = consulta.dataInicio;
             document.getElementById('consultation-end-date').textContent = consulta.dataFim;
             document.getElementById('consultation-description').textContent = consulta.descricao;
@@ -1814,24 +1800,24 @@
         function voltarParaLista() {
             // Fecha todos os modais antes de voltar
             closeAllModals();
-
+            
             // Adiciona efeito de transição suave
             const detailsSection = document.getElementById('consultation-details');
             const listSection = document.getElementById('consultation-list');
-
+            
             // Aplica efeito de fade-out
             detailsSection.style.opacity = '0.5';
-
+            
             setTimeout(() => {
                 detailsSection.classList.add('hidden');
                 listSection.classList.remove('hidden');
-
+                
                 // Rola para o topo da página suavemente
                 window.scrollTo({
                     top: 0,
                     behavior: 'smooth'
                 });
-
+                
                 // Restaura a opacidade
                 detailsSection.style.opacity = '1';
             }, 150);
@@ -2002,13 +1988,13 @@
         function checkCurrentScreen() {
             const consultationList = document.getElementById('consultation-list');
             const consultationDetails = document.getElementById('consultation-details');
-
+            
             console.log('=== DEBUG: Verificando tela atual ===');
             console.log('consultation-list existe:', !!consultationList);
             console.log('consultation-list hidden:', consultationList ? consultationList.classList.contains('hidden') : 'N/A');
             console.log('consultation-details existe:', !!consultationDetails);
             console.log('consultation-details hidden:', consultationDetails ? consultationDetails.classList.contains('hidden') : 'N/A');
-
+            
             if (consultationList && !consultationList.classList.contains('hidden')) {
                 console.log('🟢 TELA ATIVA: Lista de consultas');
                 return 'list';
@@ -2025,7 +2011,7 @@
         function forceShowModal() {
             console.log('🚨 FORÇANDO APARIÇÃO DO MODAL');
             const publishModal = document.getElementById('publish-modal');
-
+            
             if (publishModal) {
                 // Remove todas as classes e aplica estilos extremos
                 publishModal.className = '';
@@ -2041,7 +2027,7 @@
                     visibility: visible !important;
                     opacity: 1 !important;
                 `;
-
+                
                 console.log('🚨 Modal forçado com fundo vermelho - você deve ver isso!');
                 console.log('📋 Classes atuais:', publishModal.className);
                 console.log('📋 CSS Text:', publishModal.style.cssText);
@@ -2085,7 +2071,7 @@
         document.addEventListener('DOMContentLoaded', function () {
             // Fecha todos os modais ao carregar a página
             closeAllModals();
-
+            
             // Renderiza a tabela inicial
             renderizarTabelaConsultas();
 
@@ -2747,21 +2733,6 @@
             statusElement.className = `mt-1 inline-flex px-2 py-1 text-xs font-medium rounded-full ${statusClasses[comment.status]}`;
             statusElement.textContent = comment.status;
 
-            // Mostrar/esconder botões baseado no status
-            const approveBtn = document.getElementById('view-approve-btn');
-            const rejectBtn = document.getElementById('view-reject-btn');
-
-            if (comment.status === 'Aprovado') {
-                approveBtn.style.display = 'none';
-                rejectBtn.style.display = 'inline-block';
-            } else if (comment.status === 'Rejeitado') {
-                approveBtn.style.display = 'inline-block';
-                rejectBtn.style.display = 'none';
-            } else {
-                approveBtn.style.display = 'inline-block';
-                rejectBtn.style.display = 'inline-block';
-            }
-
             document.getElementById('view-comment-modal').classList.remove('hidden');
         }
 
@@ -2898,7 +2869,9 @@
             }
         }
 
-        
+        // Função removida - agora a renderCommentsTable está acima com funcionalidade de filtros
+
+        // Funcionalidades de filtro para comentários
         function aplicarFiltrosComentarios() {
             const searchTerm = document.getElementById('comments-search-input').value.toLowerCase();
             const statusSelecionado = document.getElementById('comments-status-filter').value.toLowerCase();
@@ -2917,6 +2890,7 @@
             renderCommentsTable(comentariosFiltrados);
         }
 
+        // Função para criar tag de filtro de comentários
         function createCommentsFilterTag(value, text) {
             const statusColors = {
                 'pendente': 'bg-yellow-100 text-yellow-800 border-yellow-200',
